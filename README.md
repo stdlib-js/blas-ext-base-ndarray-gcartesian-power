@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the Cartesian power for an ndarray.
+> Compute the Cartesian power for a one-dimensional ndarray.
 
 <section class="intro">
 
@@ -71,7 +71,7 @@ var gcartesianPower = require( '@stdlib/blas-ext-base-ndarray-gcartesian-power' 
 
 #### gcartesianPower( arrays )
 
-Computes the Cartesian power for an ndarray.
+Computes the Cartesian power for a one-dimensional ndarray.
 
 ```javascript
 var vector = require( '@stdlib/ndarray-vector-ctor' );
